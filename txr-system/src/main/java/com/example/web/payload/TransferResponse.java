@@ -1,4 +1,4 @@
-package com.example.web.payload;
+package com.example.repository.web.payload;
 
 import lombok.Data;
 
