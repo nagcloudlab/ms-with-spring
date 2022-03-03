@@ -1,11 +1,11 @@
-package com.some;
+package com.ex;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
-@Service
-public class SomeServiceImpl implements SomeService{
+public class ExServiceImpl implements ExService {
     @Override
     public String getInfo() {
-        return "SOME-SERVICE";
+        return "Ex-SERVICE";
     }
 }

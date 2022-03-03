@@ -1,4 +1,4 @@
-package com.example.repository.web;
+package com.example.web;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -14,6 +14,6 @@ public class GreetingProperties {
 
     private String message;
     private List<String> messages;
-    private Map<String,String> locale;
+//    private Map<String,String> locale;
 
 }

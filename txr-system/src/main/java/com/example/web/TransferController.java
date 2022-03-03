@@ -1,8 +1,8 @@
-package com.example.repository.web;
+package com.example.web;
 
 import com.example.service.TransferService;
-import com.example.repository.web.payload.TransferRequest;
-import com.example.repository.web.payload.TransferResponse;
+import com.example.web.payload.TransferRequest;
+import com.example.web.payload.TransferResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

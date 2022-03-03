@@ -1,5 +1,5 @@
-package com.some;
+package com.ex;
 
-public interface SomeService {
+public interface ExService {
     String getInfo();
 }
