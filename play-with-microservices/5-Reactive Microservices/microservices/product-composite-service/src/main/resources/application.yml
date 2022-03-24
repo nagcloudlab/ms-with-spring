@@ -81,7 +81,7 @@ spring.cloud.stream:
   default.contentType: application/json
   bindings:
     products-out-0:
-      destination: products
+      destination: products # queue
       producer:
         required-groups: auditGroup
     recommendations-out-0:

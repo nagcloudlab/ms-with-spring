@@ -1,7 +1,6 @@
 package se.magnus.api.composite.product;
 
 public class ServiceAddresses {
-
   private final String cmp;
   private final String pro;
   private final String rev;
